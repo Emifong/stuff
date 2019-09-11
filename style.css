@@ -13,9 +13,10 @@
 
     #welcome-section {
         
+         display:inline-block;
         height: 20vh;
         font-size: 1.5em;
-        margin: 0.5em 1.5em 0em 1.5em;
+        margin:1em;
         padding: 0.5em;
         
        
@@ -104,7 +105,7 @@ width:100%;
     
     @media all and (min-width: 20em) {
   .project-tile {
-    width: 50%;
+    width: 80%;
   }
 }
 @media all and (min-width: 80em) {
