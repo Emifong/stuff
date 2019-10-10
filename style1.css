@@ -71,12 +71,17 @@ width:100%;
         
     }
 
-    .project-content a{
+.project-content a{
         
         font-size: 1em;
-        color: #F9A825;
+        color: #FFFFFF;
         font-style: italic;
     }
+
+    .project-content a:link{
+      color: #FBC02D;
+    }
+    
     
     
     #navbar {
