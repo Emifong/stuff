@@ -130,6 +130,17 @@ a:active {
   nav a:hover {
       color: #FBC02D;
     }
+  h4{
+   text-align: center;
+  }
+
+img{
+  width:80%; 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
 
     
     #profile-link {
