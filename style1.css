@@ -126,6 +126,11 @@ width:100%;
 a:active {
   color: #FBC02D;
 }
+
+  nav a:hover {
+      color: #FBC02D;
+    }
+
     
     #profile-link {
         font-size: 20px;
