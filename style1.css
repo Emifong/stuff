@@ -78,7 +78,7 @@ width:100%;
         font-style: italic;
     }
 
-    .project-content a:link{
+    .project-content a:hover{
       color: #FBC02D;
     }
     
