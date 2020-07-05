@@ -1,5 +1,5 @@
 let weather;
-let apiurl = "http://api.openweathermap.org/data/2.5/weather?q=";
+let apiurl = "https://api.openweathermap.org/data/2.5/weather?q=";
 let apikey = "&appid=8fe943273eb528945c40773f4fb73497";
 let units = "&units=imperial";
 
