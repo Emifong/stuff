@@ -2,10 +2,16 @@ html,
 body {
   margin: 0;
   height: 100%;
+  position: fixed;
   overflow: hidden;
   font-size: 24px;
   background:#242424;
   color: white;
+}
+
+h2{
+  /* font-family: 'Merriweather', serif; */
+  font-family: 'Oxygen', sans-serif;
 }
 
 #menu {
@@ -13,12 +19,18 @@ body {
   height: 100%;
   width: 21%;
   border: none;
-  padding: 100px;
-  position: absolute;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+  position: fixed;
   top: 0px;
   left: 0px;
   font-size: 24 px;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  overflow-y: scroll;
+}
+  #menu::-webkit-scrollbar {
+  display: none;
 }
 
 button {
@@ -36,6 +48,7 @@ button {
   cursor: pointer;
   margin-top: 20px;
   border-radius: 2px;
+  font-family: 'Oxygen', sans-serif;
 }
 
 input {
@@ -48,6 +61,7 @@ input {
   padding-left: 5px;
   padding-bottom: 5px;
   width: 300px;
+  font-family: 'Oxygen', sans-serif;
   font-size: 36px;
 
 }
@@ -84,10 +98,25 @@ a:hover {
 
 }
 
-
+p{
+  /* font-family: 'Oxygen', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+}
 a:active {
   color: white;
   text-decoration: none;
   opacity: 1;
   font-weight: bold;
+}
+
+@media screen and (min-width: 320px) and (max-width: 770px) {
+  #menu { font-size: 18px;
+    width: 80%;
+    padding-left: 50px;
+    padding-top: 50px;     /* hide it elsewhere */
+}
+input{
+  font-size: 30px;
+  width:200px;
+}
 }
