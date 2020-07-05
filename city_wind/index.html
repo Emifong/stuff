@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>City Wind</title>
+  <link rel="stylesheet" type="text/css" href="windwave.css">
+
+  <script src="p5.js"></script>
+  <script src="wave.js"></script>
+
+</head>
+
+<body>
+
+  <div id="menu">
+
+    <div id="la"><a href=#>
+        <h2>LOS ANGELES</h2>
+      </a></div>
+    <div id="ny"><a href=#>
+        <h2>NEW YORK</h2>
+      </a></div>
+    <div id="ch"><a href=#>
+        <h2>CHICAGO</h2>
+      </a></div>
+    <div id="sf"><a href=#>
+        <h2>SAN FRANCISCO</h2>
+      </a></div>
+    <div>
+      <p>
+        <input id="city" onfocus="this.value=''" value="Zip Code/City"></input>
+        </br>
+        <button id="submit">Search</button>
+      </p>
+      </br>
+      <h3 id="windDirection"> </h3>
+      <h3 id="wspeed"> </h3>
+      <p>Project uses <a
+          href="https://en.wikipedia.org/wiki/Perlin_noise#:~:text=Perlin%20noise%20is%20a%20type,1985%20called%20An%20image%20Synthesizer.">perlin
+          noise</a> and p5.js library to create waves from current wind data from a location. The height range is determined by the wind
+        direction and wind speed. The weather API used is from openweathermap.org.</p>
+
+      <div id="back">
+        <p><a href=#>Back</a></p>
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+</body>
+
+</html>

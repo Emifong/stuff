@@ -1,0 +1,91 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  font-size: 24px;
+}
+
+#menu {
+  background-color: rgba(0, 0, 0,0.3);
+  height: 100%;
+  width: 21%;
+  border: none;
+  padding: 100px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 24 px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+button {
+  background-color:transparent;
+  border: 3px solid;
+  border-color:  rgba(255, 255, 255, 1);
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 10px;
+  width: 125px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 2px;
+}
+
+input {
+  /* background: rgba(0, 0, 0,0); */
+  background-color:transparent;
+  border: none;
+  border-bottom: 7px solid rgba(255, 255, 255, 1);
+  color: white;
+  text-align: left;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  width: 300px;
+  font-size: 36px;
+
+}
+
+input[type=text]{
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+input:focus {
+  background-color: transparent;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+
+}
+
+a:hover {
+  margin-top: 0em;
+  font-size: 110%;
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+  font-weight: bold;
+
+}
+
+
+a:active {
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+  font-weight: bold;
+}
