@@ -379,6 +379,7 @@ line-height: 24px;
 .contact__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  background:#202324;
 }
 
 /* .contact-form {
