@@ -252,7 +252,7 @@ text-shadow: 5px 4px 7px rgba(0, 0, 0, 0.8);
 .about {
   display: flex;
   justify-content: center;
-  padding: 195px 215px 0px 150px;
+  padding: 195px 215px 0px 100px;
   background: #5D111C;
 }
 .section__container {
@@ -290,7 +290,7 @@ color: #FFFFFF;
 
 .products {
   background: #5D111C;
-  padding: 150px 0 0 0 ;
+  padding: 100px 0 0 0 ;
 }
 
 .products__container {
