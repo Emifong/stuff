@@ -103,6 +103,7 @@ text-transform: uppercase;
 } */
 
 .cover__phone-container {
+
   flex-direction: row;
   display: flex;
   top: 15px;
@@ -122,8 +123,10 @@ text-transform: uppercase;
 }
 
 .cover__phone-number {
-  font-family: Poppins;
+  
+font-family: Poppins;
 font-style: normal;
+-webkit-text-stroke-width: 1px;
 font-weight: 500;
 font-size: 18px;
 line-height: 24px;
