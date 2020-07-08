@@ -123,10 +123,9 @@ text-transform: uppercase;
 }
 
 .cover__phone-number {
-  
+-webkit-text-stroke-width: 1px;
 font-family: Poppins;
 font-style: normal;
--webkit-text-stroke-width: 1px;
 font-weight: 500;
 font-size: 18px;
 line-height: 24px;
