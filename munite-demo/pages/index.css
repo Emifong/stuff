@@ -341,7 +341,7 @@ color: #FFFFFF;
 
 .contact {
   padding: 100px 190px;
-  background-color:#141414; 
+  background-color:#202324; 
 }
 
 .section__title_red {
@@ -380,7 +380,7 @@ line-height: 24px;
 .contact__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background:#202324;
+  background:#202324; ;
 }
 
 /* .contact-form {
