@@ -321,6 +321,7 @@ padding: 0 0 35px 0;
 
 .products__image {
   max-width: 100%;
+  background-color: transparent;
 }
 
 .products__text {
